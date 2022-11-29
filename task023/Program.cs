@@ -2,9 +2,9 @@
 // 3 -> 1, 8, 27    5 -> 1, 8, 27, 64, 125
 // массив
 
-int num = InputIntNumberTryParse();
-int [] cubesTable = GetTableOfCubes(num);
-PrintArray (cubesTable);
+int num = InputIntNumberTryParse(); //ввели данные
+int [] cubesTable = GetTableOfCubes(num); // посчитали кубы
+PrintArray (cubesTable); // вывели массив на печать
 
 int InputIntNumberTryParse ()
 {
@@ -21,6 +21,7 @@ int InputIntNumberTryParse ()
         return Num;
     }
 }
+
 int [] GetTableOfCubes (int num)
 {
     int [] arr = new int [num];
@@ -30,6 +31,7 @@ int [] GetTableOfCubes (int num)
     }
     return arr;
 }
+
 void PrintArray (int[] arr)
 {
     for (int i = 0; i < arr.Length; i++)
