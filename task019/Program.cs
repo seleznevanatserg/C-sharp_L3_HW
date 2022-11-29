@@ -108,30 +108,3 @@ int[] GetArrayFromNumber(int enteredNumber)
     }
     return arr;
 }
-
-/*
-void PrintArray(int[] arr)
-{
-    for (int i = 0; i < arr.Length; i++)
-    {
-        Console.Write($"{arr[i]}, ");
-    }
-    Console.WriteLine();
-}
-*/
-/*
-int[] ReversedArray(int[] arr)
-{
-    int index = arr.Length;
-    int [] arrRev = new int [index];
-    int numRev = 0;
-    index--;
-    for (int i = 0; i <= index; i++)
-    {
-        numRev = arr[i];
-        int j = index - i;
-        arrRev[j] = numRev;
-    }
-    return arrRev;
-}
-*/
